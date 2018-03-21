@@ -1,0 +1,19 @@
+{
+  "name": "codeTableAPI",
+  "version": "0.1.0",
+  "description": "UltiPro Code Sample to interact with the UltiPro Code Table API",
+  "license": "Apache-2.0",
+  "author": "Bryce Deneen",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/"
+  },
+  "scripts": {
+    "start": "nodemon dist/index.js",
+    "test": "mocha --require ts-node/register test/**/*.spec.ts"
+  },
+  "dependencies": {
+    "axios": "~0.18.0"
+  }
+}
