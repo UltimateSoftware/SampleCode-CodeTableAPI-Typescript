@@ -2,8 +2,6 @@ import * as accountData from '../accountSecretData.json';
 import * as axios from 'axios';
 import {CodeTableModel} from './model/codeTableModel';
 
-let newChange = true;
-
 //Get the username and password from the accountData file.
 const userPass = accountData.userName + ':' + accountData.password;
 
