@@ -5,6 +5,7 @@ Sample code to leverage the UltiPro Code Table API in Typescript
 ## Installation
 
 npm install
+Update accountSecreteData.json in the root of the project with your settings:
 
 ## Usage
 

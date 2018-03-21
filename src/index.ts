@@ -2,7 +2,7 @@ import * as accountData from '../accountSecretData.json';
 import * as axios from 'axios';
 import {CodeTableModel} from './model/codeTableModel';
 
-//Get the username and password from the accountData file.
+//Get the username and password from the accountData file
 const userPass = accountData.userName + ':' + accountData.password;
 
 //Used to convert username + password to base 64 encoded string for API Authorization
@@ -27,7 +27,7 @@ const instance = axios.create({
 
 instance.get()
     .then(response => {
-        //put entire response into an array.
+        //put entire response into an array
         let codeTables: Array<CodeTableModel> = response.data;
         //console.log(codeTables);
 
